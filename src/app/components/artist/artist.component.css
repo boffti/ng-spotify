@@ -1,0 +1,10 @@
+.artist-thumb {
+    width: 80px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+ .margin-custom {
+        margin-right: 5px;
+    }

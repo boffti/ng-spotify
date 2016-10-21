@@ -1,1 +1,431 @@
 /* You can add global styles to this file, and also import other style files */
+
+.blue-grey {
+    background-color: #607d8b !important;
+}
+
+.blue-grey-text {
+    color: #607d8b !important;
+}
+
+.blue-grey.lighten-5 {
+    background-color: #eceff1 !important;
+}
+
+.blue-grey-text.text-lighten-5 {
+    color: #eceff1 !important;
+}
+
+.blue-grey.lighten-4 {
+    background-color: #cfd8dc !important;
+}
+
+.blue-grey-text.text-lighten-4 {
+    color: #cfd8dc !important;
+}
+
+.blue-grey.lighten-3 {
+    background-color: #b0bec5 !important;
+}
+
+.blue-grey-text.text-lighten-3 {
+    color: #b0bec5 !important;
+}
+
+.blue-grey.lighten-2 {
+    background-color: #90a4ae !important;
+}
+
+.blue-grey-text.text-lighten-2 {
+    color: #90a4ae !important;
+}
+
+.blue-grey.lighten-1 {
+    background-color: #78909c !important;
+}
+
+.blue-grey-text.text-lighten-1 {
+    color: #78909c !important;
+}
+
+.blue-grey.darken-1 {
+    background-color: #546e7a !important;
+}
+
+.blue-grey-text.text-darken-1 {
+    color: #546e7a !important;
+}
+
+.blue-grey.darken-2 {
+    background-color: #455a64 !important;
+}
+
+.blue-grey-text.text-darken-2 {
+    color: #455a64 !important;
+}
+
+.blue-grey.darken-3 {
+    background-color: #37474f !important;
+}
+
+.blue-grey-text.text-darken-3 {
+    color: #37474f !important;
+}
+
+.blue-grey.darken-4 {
+    background-color: #263238 !important;
+}
+
+.blue-grey-text.text-darken-4 {
+    color: #263238 !important;
+}
+
+.grey {
+    background-color: #9e9e9e !important;
+}
+
+.grey-text {
+    color: #9e9e9e !important;
+}
+
+.grey.lighten-5 {
+    background-color: #fafafa !important;
+}
+
+.grey-text.text-lighten-5 {
+    color: #fafafa !important;
+}
+
+.grey.lighten-4 {
+    background-color: #f5f5f5 !important;
+}
+
+.grey-text.text-lighten-4 {
+    color: #f5f5f5 !important;
+}
+
+.grey.lighten-3 {
+    background-color: #eeeeee !important;
+}
+
+.grey-text.text-lighten-3 {
+    color: #eeeeee !important;
+}
+
+.grey.lighten-2 {
+    background-color: #e0e0e0 !important;
+}
+
+.grey-text.text-lighten-2 {
+    color: #e0e0e0 !important;
+}
+
+.grey.lighten-1 {
+    background-color: #bdbdbd !important;
+}
+
+.grey-text.text-lighten-1 {
+    color: #bdbdbd !important;
+}
+
+.grey.darken-1 {
+    background-color: #757575 !important;
+}
+
+.grey-text.text-darken-1 {
+    color: #757575 !important;
+}
+
+.grey.darken-2 {
+    background-color: #616161 !important;
+}
+
+.grey-text.text-darken-2 {
+    color: #616161 !important;
+}
+
+.grey.darken-3 {
+    background-color: #424242 !important;
+}
+
+.grey-text.text-darken-3 {
+    color: #424242 !important;
+}
+
+.grey.darken-4 {
+    background-color: #212121 !important;
+}
+
+.grey-text.text-darken-4 {
+    color: #212121 !important;
+}
+
+.black {
+    background-color: #000000 !important;
+}
+
+.black-text {
+    color: #000000 !important;
+}
+
+.white {
+    background-color: #FFFFFF !important;
+}
+
+.white-text {
+    color: #FFFFFF !important;
+}
+
+.transparent {
+    background-color: transparent !important;
+}
+
+.transparent-text {
+    color: transparent !important;
+}
+
+.card-panel {
+    transition: box-shadow .25s;
+    padding: 20px;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.card {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+}
+
+.card .card-title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.card .card-title.activator {
+    cursor: pointer;
+}
+
+.card.small,
+.card.medium,
+.card.large {
+    position: relative;
+}
+
+.card.small .card-image,
+.card.medium .card-image,
+.card.large .card-image {
+    max-height: 60%;
+    overflow: hidden;
+}
+
+.card.small .card-image+.card-content,
+.card.medium .card-image+.card-content,
+.card.large .card-image+.card-content {
+    max-height: 40%;
+}
+
+.card.small .card-content,
+.card.medium .card-content,
+.card.large .card-content {
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.card.small .card-action,
+.card.medium .card-action,
+.card.large .card-action {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card.small {
+    height: 300px;
+}
+
+.card.medium {
+    height: 400px;
+}
+
+.card.large {
+    height: 500px;
+}
+
+.card.horizontal {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.card.horizontal.small .card-image,
+.card.horizontal.medium .card-image,
+.card.horizontal.large .card-image {
+    height: 100%;
+    max-height: none;
+    overflow: visible;
+}
+
+.card.horizontal.small .card-image img,
+.card.horizontal.medium .card-image img,
+.card.horizontal.large .card-image img {
+    height: 100%;
+}
+
+.card.horizontal .card-image {
+    max-width: 50%;
+}
+
+.card.horizontal .card-image img {
+    max-width: 100%;
+    width: auto;
+}
+
+.card.horizontal .card-stacked {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+}
+
+.card.horizontal .card-stacked .card-content {
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.card.sticky-action .card-action {
+    z-index: 2;
+}
+
+.card.sticky-action .card-reveal {
+    z-index: 1;
+    padding-bottom: 64px;
+}
+
+.card .card-image {
+    position: relative;
+}
+
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.card .card-image .card-title {
+    color: #fff;
+    position: absolute;
+    font-size: 16px;
+    bottom: 0;
+    left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+}
+
+.card .card-content {
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+}
+
+.card .card-content p {
+    margin: 0;
+    color: inherit;
+}
+
+.card .card-content .card-title {
+    line-height: 48px;
+}
+
+.card .card-action {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 20px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #ffab40;
+    margin-right: 20px;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+    color: #ffd8a6;
+}
+
+.card .card-reveal {
+    padding: 20px;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    overflow-y: auto;
+    top: 100%;
+    height: 100%;
+    z-index: 3;
+    display: none;
+}
+
+.card .card-reveal .card-title {
+    cursor: pointer;
+    display: block;
+}
+
+.z-depth-1,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-floating {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.hoverable {
+    transition: box-shadow .25s;
+    box-shadow: 0;
+}
+
+.hoverable:hover {
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(1, 1, 1, 1), 0 6px 20px 0 rgba(1, 1, 1, 1);
+}
+
+.truncate {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fixed-height {
+    height: 220px
+}
+
+.float-bottom {
+    float: bottom;
+}
+
+.top-margin {
+    margin-top: 50px;
+}

@@ -1,0 +1,29 @@
+    a:link,
+    a:visited {
+        color: (internal value);
+        cursor: auto;
+    }
+    
+    a:link:active,
+    a:visited:active {
+        color: (internal value);
+    }
+    
+    a {
+        color: gray;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: gray;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    #white-text {
+        color: white;
+    }
+
+    .margin-custom {
+        margin-right: 5px;
+    }
