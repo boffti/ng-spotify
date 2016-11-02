@@ -1,31 +1,57 @@
-# NgSpotify
+# ngSpotify
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+ngSpotify is a simple web app to search for any music Album and Artists' info.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
+  - Material Design
+  - Browse and Preview Tracks
+  - Preview tracks on Spotify
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+### Tech
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ngSpotify uses a number of open source projects to work properly:
 
-## Running end-to-end tests
+* [Angular 2] - Web App Framework
+* [Angular CLI] - Angular Command Line
+* [Materialize CSS] - Material Design CSS Framework
+* [Twitter Bootstrap] - great UI boilerplate for modern web apps
+* [node.js] - evented I/O for the backend
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
-Before running the tests make sure you are serving the app via `ng serve`.
 
-## Deploying to Github Pages
+And of course ngSpotify itself is open source
 
-Run `ng github-pages:deploy` to deploy to Github Pages.
 
-## Further help
 
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Todos
+
+ - Refactor
+ - Optimize UI
+ - Sort Feature
+ - Favourites Feature
+
+License
+----
+
+MIT
+
+
+**Free Software, Hell Yeah!**
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [Materialize CSS]: <http://materializecss.com/>
+   [Angular CLI]: <https://cli.angular.io/>
+   [Firebase]: <https://firebase.google.com/>
+   [Angular 2]: <https://angular.io/>
+   [Spotify API]: <https://developer.spotify.com/web-api//>
+
+
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]:  <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>

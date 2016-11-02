@@ -408,7 +408,7 @@
 
 .hoverable:hover {
     transition: box-shadow .25s;
-    box-shadow: 0 8px 17px 0 rgba(1, 1, 1, 1), 0 6px 20px 0 rgba(1, 1, 1, 1);
+    box-shadow: 0 5px 5px 0 rgba(80, 80, 80, 1), 0 5px 5px 0 rgba(204, 204, 250, 1);
 }
 
 .truncate {

@@ -1,0 +1,15 @@
+.album-thumb {
+    width: 350px;
+    height: 350px;
+    margin-right: 15px;
+}
+
+.font-diff {
+    font-family: "Times New Roman", Times, serif;
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+
+.margin-left2 {
+    margin-left: 20px;
+}

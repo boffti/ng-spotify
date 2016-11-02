@@ -13,11 +13,11 @@
         <div class="row">
             <div *ngFor="let album of albums">
                 <div class="col-lg-3 col-md-6">
-                    <a routerLink="album.{{album.id}}">
+                    <a routerLink="/album/{{album.id}}">
                         <div class="card grey darken-4 hoverable">
                             <div class="card-image">
                                 <img src="{{album.images[1].url}}">
-                                <span class="card-title">{{album.name}}</span>
+                                <a routerLink="/album/{{album.id}}"><span class="card-title">{{album.name}}</span></a>
                             </div>
                         </div>
                     </a>
